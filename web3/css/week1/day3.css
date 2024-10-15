@@ -1,0 +1,146 @@
+/* 
+            NOTE: To style an element, we have to know about these three things:
+            1. Selector
+            2. Propertiy
+            3. Value
+
+            RULES: 
+            - The styling is ALWAYS writtend within the curly brackets.
+            - The properties are ALWAYS seperated with theirs values by a colon.
+            - A style line ALWAYS ends with a semicolon (;).
+        */
+
+/* 
+            The selector (*) is used to apply global styles to  all elements
+        */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    /* transition: all 0.3s ease; */
+}
+
+
+h1 {
+    text-align: center;
+    color: #fff;
+    font-size: 3.8em;
+    position: absolute;
+    top: 20%;
+    left: 0;
+    right: 0;
+    /* transform: translateX(-50%); */
+    animation: fromTop 1.2s ease-in-out;
+}
+
+h1 span {
+    color: #6117ec;
+}
+
+header {
+    width: 100%;
+}
+
+header nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: blueviolet;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+b {
+    color: #4208ae;
+}
+
+header nav h4 {
+    color: white;
+}
+
+header nav ul {
+    list-style-type: none;
+    gap: 20px;
+    display: flex;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+section {
+    width: 100%;
+}
+
+section div {
+    padding: 20px;
+}
+
+section h3 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 1.7rem;
+    color: blueviolet;
+    animation: fromLeft 1.2s ease-in-out;
+}
+
+section img {
+    width: 100%;
+    height: 500px;
+    margin-bottom: 20px;
+}
+
+section p {
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: justify;
+    animation: fromRight 1.2s ease;
+}
+
+
+footer {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    padding: 20px;
+    text-align: center;
+    background-color: blueviolet;
+    color: white;
+}
+
+
+@keyframes fromTop {
+    from {
+        transform: translateY(-100%);
+    }
+    to {
+        transform: translateY(0%);
+    }
+}
+
+@keyframes fromLeft {
+    from {
+        transform: translateX(-100%);
+    }
+
+    to {
+        transform: translateX(0%);
+    }
+}
+
+@keyframes fromRight {
+    from {
+        transform: translateX(100%);
+    }
+
+    to {
+        transform: translateX(0%);
+    }
+}

@@ -1,0 +1,14 @@
+Day4
+
+Exercises
+
+1. Create a HTML document and create a CSS file and link them together.
+2. Create 2 "div" elements. The first should have a class of "container" and should be styled like so:
+ - Background color: white,
+ - Light shadow that is a little bit moved to be bottom (like 8px)
+ - No border radius !
+
+ The second one should have an identifier of "firstUniqueDiv" and should be styled like
+ the previous but just with the background color set to red.
+
+ The width and the height of the two div should be the same and the values are: 400px.

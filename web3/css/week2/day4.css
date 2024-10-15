@@ -1,0 +1,103 @@
+h1 {
+    /* color: #3e67e5; */
+    /* color: #9ee814; */
+    color: rgb(20, 170, 130);
+    letter-spacing: 6px;
+    text-align: justify;
+    /* text-decoration: underline; */
+    text-transform: lowercase;
+    word-spacing: 20px;
+    /* text-shadow: 30px 20px 10px rgba(204, 31, 31, 0.9); */
+}
+
+/* Sizing Styles */
+.custom_div {
+    background-color: rgb(20, 170, 130);
+    width: 150px;
+    height: 150px;
+    max-height: 200px;
+    max-width: 200px;
+    border-radius: 10px;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.6);
+}
+
+.custom_p {
+    background-color: blue;
+    color: white;
+    padding: 10px;
+}
+
+/* This is a class selector (.) */
+.first_container {
+    margin-bottom: 60px;
+}
+
+/* This is an ID selector (#) */
+#first_heading {}
+
+
+.card {
+    max-width: 200px;
+    max-height: 300px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    overflow: hidden;
+    margin: 10px;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.card img:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+
+.card_details {
+    font-family: "Poppins", "Helvetica Neue", Helvetica, Arial, sans;
+    padding: 10px;
+}
+
+.card_details h3,
+.card_details h5 {
+    margin: 0;
+}
+
+.card_details h3 {
+    font-size: .9rem;
+    font-weight: 600;
+    color: rgb(20, 170, 130);
+}
+
+.card_details h5 {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #3d3d3d;
+}
+
+.card_details p {
+    margin: 0;
+    font-size: 10px;
+    text-align: justify;
+    color: #555;
+}
+
+.card_details button {
+    background-color: rgb(20, 170, 130);
+    outline: none;
+    border: none;
+    font-size: 0.7rem;
+    color: white;
+    width: 100%;
+    height: 26px;
+    border-radius: 6px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+
+.card_details button:active {
+    opacity: 0.7;
+}
