@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../../css/week2/day7.css">
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <h2>Position</h2>
+
+            <ul>
+                <li><a href="#static">static</a></li>
+                <li><a href="#absolute">absolute</a></li>
+                <li><a href="#fixed">fixed</a></li>
+                <li><a href="#relative">relative</a></li>
+                <li><a href="#sticky">sticky</a></li>
+                <li><a href="#z-index">z-index</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <main>
+
+        <div class="image_container"></div>
+        <h1 style="margin-bottom: 40px;">Day 7, positioning in CSS</h1>
+ 
+        <aside class="left_aside">
+            <h2 style="margin-bottom: 20px;">Related topics</h2>
+            <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere unde praesentium aperiam in molestiae
+                <br>
+                <br>
+                fugiat veritatis repudiandae quidem expedita quod nisi blanditiis inventore.
+            </p>
+            <span>#Sports</span> <span>#News</span> <span>#Nutrition</span>
+
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi mollitia in qui error officia!
+            </p>
+        </aside>
+
+        <section class="right_aside">
+            <h2>Hot Comments</h2>
+            <aside>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                </p>
+                <span>#Sports</span> <span>#News</span> <span>#Nutrition</span>
+            </aside>
+
+            <aside>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                </p>
+                <span>#Sports</span> <span>#News</span> <span>#Nutrition</span>
+            </aside>
+        </section>
+
+        <p>
+            The <span>position CSS property</span> is used <span>to adjust the position of the element you
+                targeted</span>.
+        </p>
+
+        <p>
+            As soon as you use the position property, you'll now have access to the <span>top</span>,
+            <span>bottom</span>, <span>right</span> and <span>left</span> properties in order to adjust the position of
+            the element, according to the side. These new properties <span>can accept also negative values.</span>
+        </p>
+
+        <h2 id="static">The <span>Static</span> value</h2>
+        <p class="p-abs">
+            Elements <span>follow the normal flow of the document</span>.
+            No positioning adjustments are applied, and elements appear where they naturally fall in the HTML.
+        </p>
+
+        <h2 id="absolute">The <span>absolute</span> value</h2>
+        <p>
+            <span>The element is removed from the normal document flow and positioned relative to the nearest positioned
+                (non-static) ancestor</span>.
+            The element can be moved using top, right, bottom, and left relative to its containing element.
+        </p>
+
+        <h2 id="fixed">The <span>Fixed</span> value</h2>
+
+        <p>
+            Similar to absolute positioning, but the element is positioned relative to the viewport.
+            <span>The element remains fixed in place even when the page is scrolled (e.g., a fixed header)</span>.
+        </p>
+
+        <h2 id="relative">The <span>Relative</span> value</h2>
+
+        <p>
+            <span>The element is positioned relative to its normal position in the document flow</span>.
+            You can move the element using top, right, bottom, and left without affecting other elements’ positions.
+        </p>
+
+        <h2 id="sticky">The <span>Sticky</span> value</h2>
+
+        <p>
+            A hybrid of relative and fixed positioning.
+            <span>The element behaves like it’s relatively positioned until a certain point (usually when
+                scrolling)</span>, at which
+            point it becomes fixed to a specific position.
+        </p>
+
+        <h3 id="z-index">The <span>z-index</span> property</h3>
+
+        <p>
+            z-index is used <span>to control the stacking order of positioned elements</span>. Elements with higher
+            z-index values
+            <span>will appear in front of elements with lower values</span>.
+        </p>
+
+        <div class="container">
+            <div class="box"></div>
+        </div>
+
+    </main>
+
+    <footer>
+        <p>© Copyrights - 2024</p>
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,139 @@
+/* section div {
+    padding: 4px;
+    border: 1.2px solid black;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-container > * {
+    
+}
+
+.grid-container {
+    display: grid;
+} */
+
+* {
+    margin: 0;
+}
+
+/* 
+
+
+*/
+nav {
+    color: white;
+    padding: 10px;
+    padding-left: 4%;
+    padding-right: 4%;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #252525;
+}
+
+.left__side {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left__side h2 {
+    color: #6f4cf8;
+}
+
+.left__side ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    gap: 46px;
+    font-size: .8rem;
+    font-weight: 600;
+}
+
+.left__side ul li:hover {
+    opacity: .6;
+    transition: all 0.4s ease;
+    cursor: pointer;
+}
+
+.tag {
+    background-color: #beaff9;
+    border: 1.4px solid #6f4cf8;
+    border-radius: 3px;
+    padding: 2px;
+    font-size: .5rem;
+    color: #6f4cf8;
+    position: absolute;
+    margin-left: 2px;
+    /* margin-top: 2px; */
+}
+
+
+.right__side {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+}
+
+.right__side button {
+    background: none;
+    outline: none;
+    border: 2px solid white;
+    color: white;
+    align-items: center;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 6px;
+}
+
+.right__side a {
+    text-decoration: none;
+    color: #f5ae2a;
+    font-size: .9rem;
+    font-weight: bold;
+}
+
+.right__side .user__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.user__container div {
+    /* Notification icon */
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: #ccc;
+    position: relative;
+}
+
+.user__container div span {
+    background-color: red;
+    position: absolute;
+    top: -4px;
+    right: -4px;
+    color: white;
+    font-size: .5rem;
+    padding: 2px;
+    border-radius: 50px;
+    height: 10px;
+    width: 10px;
+    text-align: center;
+}
+
+
+.user__container img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+
+}
