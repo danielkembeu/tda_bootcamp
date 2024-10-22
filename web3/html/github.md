@@ -6,6 +6,8 @@
 
 #### NOTE: This assumes that you do have already created a repository on Github
 
+[Github: Create a new repository](https://github.com/danielkembeu/tda_bootcamp/blob/main/web3/html/gh.jpg)
+
 1. Create a repository on [Github](https://github.com/)
 
 `Note`: Make sure that you select the good visibility for your project (either ``private`` or ``public``)
