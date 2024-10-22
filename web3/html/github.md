@@ -53,7 +53,7 @@ git add .
 2. Commit changes
 
 ```bash
-git commit -m "Any message here to describe the changes you have made"
+git commit -m "Any message here to describe the changes you made"
 ```
 
 3. Deploy changes onto github repository.
