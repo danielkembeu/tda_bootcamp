@@ -4,6 +4,8 @@
 
 ### Configuration phase
 
+#### NOTE: This assumes that you do have already created a repository on Github
+
 1. Create a repository on [Github](https://github.com/)
 
 `Note`: Make sure that you select the good visibility for your project (either ``private`` or ``public``)
