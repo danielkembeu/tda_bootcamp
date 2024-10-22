@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Space Grotesk', 'Helvetica Neue', Helvetica, Arial;
+
+    /* Variables */
+
+    /* Font sizes */
+    --base-font: 1rem;
+
+    /* Heading & Titles */
+    --heading: 4rem;
+    --title: 2rem;
+    --subtitle: 1.6rem;
+
+    /* colors */
+    --primary: purple;
+
+    /* Spacing */
+    --default-margin: 0.5rem;
+    --default-padding: 0.5rem;
+    --default-gap: 0.5rem;
+    --inline-gap: 1rem;
+    --flex-gap: 2rem;
+
+
+    font-size: var(--base-font);
+}
+
+.heading {
+    font-size: var(--heading);
+    color: var(--primary);
+}
+
+.title {
+    font-size: var(--title);
+}
+
+.subtitle {
+    font-size: var(--subtitle);
+}
+
+
+header {
+    background-image: url("../../html/assets/learning-english.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    position: relative;
+    width: 100%;
+}
+
+header section {
+    width: 400px;
+    position: absolute;
+    bottom: 40px;
+    left: 60px;
+    color: white;
+}
+
+header section p {
+    font-size: .8rem;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 4rem;
+    color: white;
+    background: linear-gradient(14deg, #4c0bad, purple);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 20;
+}
+
+nav ul {
+    list-style-type: none;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: var(--inline-gap);
+}
+
+nav ul li {
+    cursor: pointer;
+}
+
+nav ul li:hover {
+    border-color: white;
+    border-bottom-width: 2px;
+    color: white;
+    transition: color 1s ease;
+}
+
+nav input {
+    outline: none;
+    border: none;
+    width: 400px;
+    height: 30px;
+    border-radius: 40px;
+    background: white;
+    padding: 4px 10px;
+}
+
+
+main {
+    padding: 60px 30%;
+    display: flex;
+    flex-direction: column;
+    transition: padding 1s ease;
+}
+
+
+.left_side {
+    position: fixed;
+    left: 100px;
+    top: 60%;
+    opacity: 1;
+    transition: opacity 1s ease;
+}
+
+
+.posts {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* width: 210px; */
+    gap: var(--inline-gap);
+    margin: 20px 0;
+}
+
+.post {}
+
+.post img {
+    width: 140px;
+    height: 80px;
+}
+
+.post_title {}
+
+
+
+.part {
+    margin: 20px 0;
+}
+
+
+@media (max-width: 1300px) {
+    .left_side {
+        opacity: 0;
+    }
+
+    main {
+        padding: 60px 10%;
+    }
+}

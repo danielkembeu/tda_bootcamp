@@ -1,0 +1,26 @@
+section {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.custom_container {
+    width: 200px;
+    height: 260px;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+    margin: 16px;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #a0cafd;
+}
+
+.custom_container h2 {
+    font-weight: bold;
+    font-size: .9rem;
+    margin-bottom: 6px;
+}
+
+.custom_container p {
+    color: #646464;
+    font-size: 0.8rem;
+}
